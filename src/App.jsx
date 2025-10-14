@@ -9,7 +9,7 @@ function App() {
   const [selectedProject, setSelectedProject] = useState(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
 
-  const API = "http://localhost:5000/api/projects";
+  const API = "https://project-tracker-api.onrender.com/api/projects"; // 👈 Use your Render URL here
 
   const fetchProjects = async () => {
     try {
