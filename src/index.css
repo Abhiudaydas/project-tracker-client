@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* index.css */
+input[type="radio"].appearance-none:checked::before {
+  content: "●";
+  color: white;
+  font-size: 0.75rem;
+  display: block;
+  text-align: center;
+}
+body {
+  background-image: url(photos/background_img_2.jpg);
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+ul {
+  list-style: none; /* 🛑 Removes default bullets */
+  padding-left: 0;
+}
